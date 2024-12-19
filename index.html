@@ -16,17 +16,17 @@
 </head>
 
 <body>
-    <!-- Bandeau en haut avec logo et titre -->
     <header class="header-banner">
         <div class="header-content">
             <img src="./images/Logo.png" alt="Logo Les P'tits Sorciers" class="logo">
             <h1>Les P'tits Sorciers</h1>
+            <a href="pro.html" class="switch-page-btn">Pro</a>
         </div>
-    </header>
+    </header>       
+    
 
     <h2 class="title">Réenchantons le goûter !</h2>
 
-    <!-- Première section avec image à gauche et texte à droite -->
     <section class="content-section">
         <div class="text-container">
             <h2>Qui sommes-nous ?</h2>
@@ -38,7 +38,6 @@
         </div>
     </section>
 
-    <!-- Deuxième section avec image à droite et texte à gauche -->
     <section class="content-section">
         <div class="image-container">
             <img src="./images/image2.png" alt="enfant">
@@ -54,10 +53,8 @@
     <div class="form-container">
         <h2>Se pré-inscrire</h2>
         <form action="https://api.web3forms.com/submit" method="POST" class="cta-form">
-            <!-- Clé d'accès Web3Forms -->
             <input type="hidden" name="access_key" value="e1851305-52e4-4946-a86e-5d97a7033315">
     
-            <!-- Groupe de champs pour nom et prénom -->
             <div class="form-group">
                 <div class="input-group">
                     <label for="nom">Nom :</label>
@@ -69,22 +66,18 @@
                 </div>
             </div>
     
-            <!-- Champ email -->
             <div class="form-group">
                 <label for="email">Email :</label>
                 <input type="email" id="email" name="email" required>
             </div>
     
-            <!-- Redirection après soumission -->
             <input type="hidden" name="redirect" value="https://web3forms.com/success">
     
-            <!-- Bouton d'envoi -->
+
             <button type="submit" class="cta-button">Envoyer</button>
         </form>
     </div>
     
-
-    <!-- Pied de page -->
     <footer>
         <p>&copy; 2024 Les P'tits Sorciers | Tous droits réservés</p>
     </footer>

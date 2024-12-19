@@ -34,29 +34,50 @@ body {
     background-color: #D90368;
     padding: 20px 0;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centrer les éléments du header */
     align-items: center;
-    position: relative;
 }
 
+/* Conteneur du contenu de l'en-tête */
 .header-content {
     font-family: 'Dream Orphans', sans-serif;
     display: flex;
     align-items: center;
-    gap: 15px;
+    width: 100%;
+    padding: 0 20px; /* Un peu de marge interne */
+    justify-content: space-between; /* Espacer les éléments */
 }
 
+/* Le logo */
 .logo {
     height: 100px;
     width: auto;
-    position: absolute;
-    left: 40px;
 }
 
+/* Le titre */
 .header-banner h1 {
     margin: 0;
     font-size: 32px;
     font-weight: bold;
+    color: white;
+    text-align: center; /* Centrer le titre */
+    flex-grow: 1; /* Permet au titre de prendre toute la place restante */
+}
+
+/* Bouton du côté droit */
+.switch-page-btn {
+    background-color: white;
+    color: #D90368;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.switch-page-btn:hover {
+    background-color: #D90368;
     color: white;
 }
 
