@@ -6,9 +6,23 @@
 #0A0908 BLACK
 */
 
+@font-face {
+    font-family: 'GeosansLight';
+    src: url('fonts/GeosansLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dream Orphans';
+    src: url('fonts/Dream\ Orphans.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Style général */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'GeosansLight', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
@@ -26,6 +40,7 @@ body {
 }
 
 .header-content {
+    font-family: 'Dream Orphans', sans-serif;
     display: flex;
     align-items: center;
     gap: 15px;
