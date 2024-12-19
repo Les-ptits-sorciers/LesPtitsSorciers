@@ -47,10 +47,10 @@ body {
 }
 
 .logo {
-    height: 50px;
+    height: 100px;
     width: auto;
     position: absolute;
-    left: 20px;
+    left: 40px;
 }
 
 .header-banner h1 {
