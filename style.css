@@ -119,8 +119,8 @@ body {
     margin-bottom: 10px;
 }
 
-.text-container p {
-    font-size: 18px;
+.text-container p, li{
+    font-size: 20px;
     color: #555;
 }
 
